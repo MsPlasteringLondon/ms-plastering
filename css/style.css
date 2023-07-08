@@ -77,12 +77,13 @@ body{
 
 
 .home .hero{
-  min-height: 60vh;
-  background: url(../images/home.jpg) no-repeat;
+  min-height: 70vh;
+  background: url(../images/contact-me-v1.jpg) no-repeat;
   background-size: cover;
   background-position: center;
   display: flex;
   align-items: center;
+  background-size: contain;
 }
 
 .home .row{
@@ -549,5 +550,19 @@ body{
   .home .hero .text2{
     font-size: 2.5rem;
     width: 30rem;
+  }
+  .home .hero {
+    min-height: 70vh;
+    background: url(../images/contact-me.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+  
+    background-size: contain;
+    margin-top: -15rem;
+  }
+  .about {
+    margin-top: -15rem;
   }
 }
